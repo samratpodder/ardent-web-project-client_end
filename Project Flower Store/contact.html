@@ -8,10 +8,42 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/528f5885b7.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./address-card-regular.svg" type="image/x-icon">
     <title>Contact Us</title>
   </head>
   <body>
-    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-white">
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eum velit, repellendus nisi quam obcaecati.</p>
+        </div>
+    </div>
+    <div class="container" id="formcontainer">
+        
+        <div class="row">
+            <div class="col" id="message-form">
+                <form action="">
+                    <div class="form-group">
+                         <input type="text" name="name" id="name" class="form-control" placeholder="NAME">
+                    
+                    </div>
+                   <div class="form-group">
+                       <input type="email" name="email" id="emailonform" class="form-control" placeholder="Email">
+                       <small class="text-muted">We'll never share your email with anyone else.</small>
+                   </div>
+                   <div class="form-group">
+                        <input type="textarea" rows="10" name="message" id="message" placeholder="Enter your Message"class="form-control" contenteditable>
+                   </div>
+                   
+                </form>
+            </div>
+            <div id="other" class="col">
+
+            </div>
+            
+        </div>
+    </div> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

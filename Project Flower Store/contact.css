@@ -1,0 +1,15 @@
+body{
+    background: rgb(70, 155, 148);
+}
+.jumbotron-fluid{
+    background:rgba(1,1,1,0.85);
+}
+.form-control, textarea {
+    max-width: 400px;
+    background-color: #111;
+    color: #fff;
+    letter-spacing: 1px;
+}
+#formcontainer{
+    background: #111;
+}
