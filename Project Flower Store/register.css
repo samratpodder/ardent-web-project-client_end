@@ -1,0 +1,9 @@
+.container-fluid{
+    background-image: linear-gradient(0.05turn ,#fa7bba,#22a6d3);
+}
+body{
+    font-family: Rasa;
+}
+#signin{
+    font-size: 1.2rem;
+}

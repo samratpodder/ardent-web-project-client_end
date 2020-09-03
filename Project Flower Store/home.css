@@ -1,0 +1,10 @@
+@media (max-width: 768px){
+  .form-control{
+    width:60%;
+  }
+  
+}
+.center_div{
+  margin : 0 auto;
+  
+}
