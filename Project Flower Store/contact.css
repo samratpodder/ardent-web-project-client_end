@@ -13,3 +13,66 @@ body{
 #formcontainer{
     background: #111;
 }
+#send{
+    max-width: 30%;
+}
+#send:hover{
+    max-width:75%;
+}
+
+hr{ 
+    border:         none;
+    border-left:    1px solid rgba(60,60,60,0.8);
+    height:         75vh;
+    width:          1px;       
+}
+#other{
+    color: #fff;
+}
+#location{
+    height: 30%;
+}
+#mail{
+    height: 30%;
+}
+#telnum{
+    height: 30%;
+}
+#other{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+#facebook{
+    color:white;
+}
+#youtube{
+    color: white;
+}
+#twitter{
+    color:white;
+}
+#instagram{
+    color:white;
+}
+#facebook:hover{
+    color: rgb(44, 166, 248);
+    
+}
+#youtube:hover{
+    color: red;
+}
+#twitter:hover{
+    color: rgb(0, 195, 255);
+}
+#instagram:hover{
+    color: rgba(255, 208, 0, 0.753);
+}
+@media (max-width:760px)
+{
+    #send{
+        max-width:85%;
+    }
+    #send:hover{
+        max-width:90%;
+    }
+}

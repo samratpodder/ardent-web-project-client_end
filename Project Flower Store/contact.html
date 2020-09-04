@@ -22,8 +22,8 @@
     <div class="container" id="formcontainer">
         
         <div class="row">
-            <div class="col" id="message-form">
-                <form action="">
+            <div class="col my-3" id="message-form">
+                <form action="" >
                     <div class="form-group">
                          <input type="text" name="name" id="name" class="form-control" placeholder="NAME">
                     
@@ -33,18 +33,60 @@
                        <small class="text-muted">We'll never share your email with anyone else.</small>
                    </div>
                    <div class="form-group">
-                        <input type="textarea" rows="10" name="message" id="message" placeholder="Enter your Message"class="form-control" contenteditable>
+                        <textarea rows="10" name="message" id="message" placeholder="Enter your Message"class="form-control" contenteditable></textarea>
                    </div>
-                   
+                   <button id="send" class=" btn btn-outline-danger btn-block">
+                        Send
+                   </button>
                 </form>
             </div>
-            <div id="other" class="col">
-
+            <hr class="d-none d-md-block">
+            <div id="other" class="col-12 col-md-6 my-3">
+                <div id="location" class="row my-3 d-flex d-inline align-content-center justify-content-center">
+                    <div class="my-auto col d-flex d-inline align-content-center">
+                        <i class="m fas fa-map-marker-alt fa-lg"></i>
+                        <span id="locarea" class="m-auto">
+                         KOLKATA,WEST BENGAL
+                        </span>
+                    </div>
+                </div>
+                <div id="mail" class="row my-3 d-flex d-inline align-content-center justify-content-center">
+                    <div class="my-auto col d-flex d-inline align-content-center">
+                        <i class="fas fa-at fa-lg"></i>
+                        <span id="locarea" class="m-auto">
+                         example@flowerstore.com
+                        </span>
+                    </div>
+                </div>
+                <div id="telnum" class="row my-3 d-flex d-inline align-content-center justify-content-center">
+                    <div class=" col d-flex d-inline align-content-center">
+                        <i class="fas fa-phone-alt fa-lg"></i>
+                        <span id="locarea" class="m-auto">
+                         +1 XXX-XXXXXXXX
+                        </span>
+                    </div>
+                </div>
             </div>
-            
+        </div>
+        <div class="container mb-5 mt-3">
+            <div class="row d-flex">   
+                <div class="col">
+                    <button id="facebook" class="btn btn-lg btn-block"><i class="fab fa-facebook fa-2x"></i></button>
+                </div>
+                <div  class="col">
+                    <button id="youtube" class="btn btn-lg btn-block"><i class="fab fa-youtube fa-2x"></i></button>
+                </div>
+                <div  class="col">
+                    <button id="twitter"  class="btn btn-lg btn-block"><i class="fab fa-twitter fa-2x"></i></button>
+                </div>
+                <div  class="col">
+                    <button id="instagram" class="btn btn-lg btn-block"><i class="fab fa-instagram-square fa-2x"></i></button>
+                </div>
+            </div>
         </div>
     </div> 
 
+    <script src="./contact.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
