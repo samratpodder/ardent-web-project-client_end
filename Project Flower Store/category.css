@@ -1,0 +1,38 @@
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background: rgba(0, 163, 204, 0);
+  }
+  
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #000000FF;
+    content: ">";
+  }
+ul.breadcrumb li a {
+    color: #F95700FF;
+    text-decoration: none;
+  }
+ul.breadcrumb li a:hover {
+    color: #6bc4d4;
+  }
+#side{
+    background: rgba(0, 31, 63, 0.733);
+    font-weight: 100;
+}
+#maincontent{
+    background: #ADEFD1FF;
+}
+h5{
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+}
+body{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    font-weight: 400    ;
+}
