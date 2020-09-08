@@ -1,0 +1,63 @@
+#breadcrumb li{
+    
+    display: inline;
+}
+#breadcrumb li a{
+    text-decoration: none;
+    color: black;
+}
+#breadcrumb li a:hover{
+    text-decoration: none;
+    color: rgb(116, 114, 114);
+}
+#main-image{
+    width: 27rem;
+}
+.smaller-images{
+    
+    width: 6rem;
+}
+#stars{
+    color: grey;
+}
+#prod-price{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.boxed{
+    border: 2px solid black;
+    padding: 1px 10px;
+}
+.btn-red:hover{
+    background-color: rgb(243, 76, 46) ;
+}
+.btn-pink:hover{
+    background-color: rgb(255, 162, 224) ;
+}
+.btn-white:hover{
+    background-color: rgba(255, 237, 234, 0.767) ;
+    color:#000;
+}
+#twitter{
+    color:black;
+}
+#instagram{
+    color:black;
+}
+#facebook:hover{
+    color: rgb(44, 166, 248);
+    
+}
+#twitter:hover{
+    color: rgb(0, 195, 255);
+}
+#instagram:hover{
+    color: rgba(255, 208, 0, 0.753);
+}
+#tiktok:hover{
+    color:rgba(255, 0, 119, 0.685);
+}
+#gplus:hover{
+    background-color:red;
+    color: white;
+}
