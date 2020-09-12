@@ -17,11 +17,196 @@
     <h6 id="isguest">You are checking out as Guest</h6>
     <h6 id="asktologin">Have an account ? <a href="./login.html">Sign In</a> or <a href="./register.html">Register</a></h6>
     <div class="row">
-        <div class="col-4" >
+        <div class="col-12 col-lg-4 cart-content" >
+            <ul>
+                <h2 class="text-center">Your Cart</h2>
+                <li>
+                    <div class="row">
+                        <div class="col-8">
+                            <p name="item-name">Item Name</p>
+                            <p name="item-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptatem.
+                            </p>
+                             <div>
+                                Price: $<span class="price"></span>
+                             </div>
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="./pexels-photo-1447367.jpeg" alt="" srcset="">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div class="row">
+                        <div class="col-8">
+                            <p name="item-name"> Item Name</p>
+                            <p name="item-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eligendi.
+                            </p>
+                            <div>
+                                Price: $<span class="price"></span>
+                             </div>
+                        </div>
+                        <div class="col-4 d-flex align-content-center">
+                            <img class="img-fluid" src="./pexels-photo-4399984.jpeg" alt="" srcset="">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div class="row">
+                        <div class="col-8">
+                            <p name="item-name">Item Name</p>
+                            <p name="item-description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, inventore.
+                            </p>
+                            <div>
+                                Price: $<span class="price"></span>
+                             </div>
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="./photo-1567468694965-81f6c1d75266.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <div class="d-flex justify-content-end">Subtotal: $ <span class="subtotal">0</span></div>
+                <div class="d-flex justify-content-end">Discount: -$ <span class="discount">0</span></div>
+                <div class="d-flex justify-content-end">Total: $ <span class="total">0</span></div>
+            </div>
             
         </div>
-        <div class="col-8" >
-            
+        
+        <div class="col-12 col-lg-8 non-cart-area" >
+            <form action="./payment-success.html" method="">
+                <!-- <ul id="progressbar">
+                    <li class="active">Account Setup</li>
+                    <li>Social Profiles</li>
+                    <li>Personal Details</li>
+                  </ul> -->
+                        <fieldset class="billing-details">
+                        <h3>Billing Address</h3>
+                        <h5>Step 1 of 3</h5>
+                        <div class="form-group">
+                        <input class="form-control" type="number" placeholder="House number">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="address" id="address" cols="20" rows="10" placeholder="Full Address"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="number" max="6" placeholder="Pincode">
+                        </div>
+                        <button class="next btn btn-outline-success">Next</button>
+                        </fieldset>
+                        <fieldset class=" personal-details d-none">
+                            <h3>Personal Details</h3>
+                            <h5>Step 2 of 3</h5>
+                            <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="" class="form-control"  placeholder="Number" id="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email"  placeholder="Email">
+                            </div>
+                            <button class="prev-one btn btn-outline-danger">Previous</button>
+                            <button class="next btn btn-outline-success">Next</button>
+                            </fieldset>
+                            <fieldset class=" payment-details d-none">
+                                <h3>Payment Options</h3>
+                                <h5>Step 3 of 3</h5>
+                                <div class="container">
+                                    <div class="">
+                                   
+                                    <div class="">
+                                    
+                                    
+                                    
+                                    <div class="panel panel-default credit-card-box">
+                                    <div class="panel-heading display-table" >
+                                    <div class=" display-tr" >
+                                    
+                                    <div class="display-td" >                            
+                                    <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
+                                    </div>
+                                    </div>                    
+                                    </div>
+                                    <div class="panel-body">
+                                    <form role="form" id="payment-form">
+                                    <div class="">
+                                    <div class="">
+                                    <div class="form-group">
+                                    <label for="cardNumber">CARD NUMBER</label>
+                                    <div class="input-group">
+                                    <input 
+                                    type="tel"
+                                    class="form-control"
+                                    name="cardNumber"
+                                    placeholder="Valid Card Number"
+                                    autocomplete="cc-number"
+                                    required autofocus 
+                                    />
+                                    <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                                    </div>
+                                    </div>                            
+                                    </div>
+                                    </div>
+                                    <div class="">
+                                    <div class="">
+                                    <div class="form-group">
+                                    <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                                    <input 
+                                    type="tel" 
+                                    class="form-control" id="exp-date"
+                                    name="cardExpiry"
+                                    placeholder="MM / YY"
+                                    autocomplete="cc-exp"
+                                    required 
+                                    />
+                                    </div>
+                                    </div>
+                                    <div class="pull-right">
+                                    <div class="form-group">
+                                    <label for="cardCVC">CV CODE</label>
+                                    <input 
+                                    type="tel" 
+                                    class="form-control"
+                                    name="cardCVC"
+                                    placeholder="CVC"
+                                    autocomplete="cc-csc"
+                                    required
+                                    />
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="">
+                                    <div class="">
+                                    <div class="form-group">
+                                    <label for="couponCode">COUPON CODE</label>
+                                    <input type="text" class="form-control" placeholder="Optional" name="couponCode" />
+                                    </div>
+                                    </div>                        
+                                    </div>
+                                    <div class="">
+                                    <div class="">
+                                    
+                                    </div>
+                                    </div>
+                                    <div class="row" style="display:none;">
+                                    <div class="">
+                                    <p class="payment-errors"></p>
+                                    </div>
+                                    </div>
+                                    </form>
+                                    </div>
+                                    </div>
+                                    <button class="prev-two btn btn-outline-danger">Previous</button>
+                            </fieldset>
+                <button class="my-3  btn-block submit-btn btn btn-outline-primary d-none">Submit</button>
+            </form>
         </div>
     </div>
     <h6>Need Help ? <a href="./contact.html">Contact Us</a> directly or visit our <a href="./blog.html">Blog !</a></h6>
