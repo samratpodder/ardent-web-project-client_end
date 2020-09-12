@@ -8,6 +8,37 @@
   margin : 0 auto;
   
 }
-#main-banner{
-  max-height: 10%;
+.banner img{
+  width: 100%;
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(0.74, 0.54, 0.26, 1.11);
+}
+.banner img:hover{
+  opacity: 0.6;
+}
+.container-fluid{
+  padding: 0 0 !important;
+}
+.banner{
+  background-color: black;
+  position: relative;
+  text-align: center;
+  color: white;
+  transition: font-size 2s;
+  transition-timing-function: cubic-bezier(0.74, 0.54, 0.26, 1.11);
+}
+.text-top {
+  position: absolute;
+  bottom: 100px;
+  left: 16px;
+}
+.lower-text{
+  position: absolute;
+  bottom: 10px;
+  left: 32px;
+}
+
+.banner:hover{
+
+  font-size: 3.6rem;
 }
