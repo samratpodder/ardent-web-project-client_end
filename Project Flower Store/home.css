@@ -91,3 +91,25 @@
   margin: 0 0 !important;
   overflow: hidden;
 }
+body{
+  font-family: "Nunito", sans-serif;
+}
+.navbar{
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+.navbar{
+  background-color: rgba(180, 243, 243,0.5);
+}
+.navbar:hover{
+  background-color: rgb(243, 204, 98);
+}
+.nav-link{
+  color: rgb(255, 255, 255);
+}
+#mainnavbar .nav-link:hover{
+  color: #EA1C2C;
+}
+#mainnavbar .navbar-brand{
+  color: #EA1C2C;
+}
