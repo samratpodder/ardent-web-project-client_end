@@ -2,7 +2,7 @@ function Scrolldown() {
     window.scrollTo(0,50); 
 }
 
-window.onload = Scrolldown();
+//window.onload = Scrolldown();
 var reviewPictures = document.querySelectorAll(".review-picture");
 var reviewblock = document.querySelectorAll(".review-text");
 var i=0;
