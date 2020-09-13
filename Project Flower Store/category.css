@@ -31,8 +31,26 @@ h5{
     font-family: 'Syne', sans-serif;
     font-weight: 400;
 }
+
 body{
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
-    font-weight: 400    ;
+  font-family: "Nunito", sans-serif;
+}
+.navbar{
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+.navbar{
+  background-color: rgba(35, 245, 245, 0.5);
+}
+.navbar:hover{
+  background-color: rgb(243, 204, 98);
+}
+.nav-link{
+  color: rgb(0, 0, 0);
+}
+#mainnavbar .nav-link:hover{
+  color: #EA1C2C;
+}
+#mainnavbar .navbar-brand{
+  color: #EA1C2C;
 }

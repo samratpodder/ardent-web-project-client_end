@@ -1,19 +1,22 @@
 body{
-    background:  #3B3B3B   ; 
     font-family: "Nunito", sans-serif;
 }
 .navbar{
     font-weight: 100;
     font-size: 1.5rem;
+    transition: all 0.6s;
+    transition-timing-function: ease-in;
 }
 .navbar{
-    background-color: rgba(180, 243, 243,0.5);
+    background-color: rgba(35, 245, 245, 0.5);
 }
 .navbar:hover{
     background-color: rgb(243, 204, 98);
 }
 .nav-link{
-    color: white;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+    transition-timing-function: ease-in;
 }
 #mainnavbar .nav-link:hover{
     color: #EA1C2C;
