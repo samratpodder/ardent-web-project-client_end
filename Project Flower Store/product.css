@@ -38,11 +38,20 @@
     background-color: rgba(255, 237, 234, 0.767) ;
     color:#000;
 }
+#youtube{
+    color:black;
+}
+#youtube:hover{
+    color: #EA1C2C;
+}
 #twitter{
     color:black;
 }
 #instagram{
     color:black;
+}
+#facebook{
+    color: #000;
 }
 #facebook:hover{
     color: rgb(44, 166, 248);

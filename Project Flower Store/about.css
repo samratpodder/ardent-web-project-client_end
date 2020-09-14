@@ -54,3 +54,28 @@ body{
 img{
     max-height: 40rem;
 }
+#facebook{
+    color:white;
+  }
+  #youtube{
+    color: white;
+  }
+  #twitter{
+    color:white;
+  }
+  #instagram{
+    color:white;
+  }
+  #facebook:hover{
+    color: rgb(44, 166, 248);
+    
+  }
+  #youtube:hover{
+    color: red;
+  }
+  #twitter:hover{
+    color: rgb(0, 195, 255);
+  }
+  #instagram:hover{
+    color: rgba(255, 208, 0, 0.753);
+  }
