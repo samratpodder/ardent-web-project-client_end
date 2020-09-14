@@ -29,15 +29,24 @@
 }
 .text-top {
   position: absolute;
-  bottom: 350px;
+  bottom: 250px;
   left: 16px;
 }
 .lower-text{
   position: absolute;
-  bottom: 275px;
+  bottom: 150px;
   left: 32px;
 }
+@media (max-width: 768px){
+  
+  .banner{
 
+    font-size: 1.8rem;
+  }
+  .banner:hover{
+    font-size: 1rem;
+  }
+}
 .banner:hover{
 
   font-size: 3.6rem;
