@@ -87,3 +87,9 @@ body{
 #mainnavbar .navbar-brand{
     color: #EA1C2C;
 }
+div{
+    margin: 20px auto;
+}
+div nav{
+    margin:0 0;
+}

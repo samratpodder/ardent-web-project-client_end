@@ -41,16 +41,32 @@ body{
 }
 .navbar{
   background-color: rgba(35, 245, 245, 0.5);
+  transition: all 0.6s;
+    transition-timing-function: ease-in;
 }
 .navbar:hover{
   background-color: rgb(243, 204, 98);
 }
 .nav-link{
   color: rgb(0, 0, 0);
+  transition: all 0.3s;
+    transition-timing-function: ease-in;
 }
 #mainnavbar .nav-link:hover{
   color: #EA1C2C;
 }
 #mainnavbar .navbar-brand{
   color: #EA1C2C;
+}
+#maincontent a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+  transition-timing-function: ease-in-out;
+}
+#maincontent a:hover{
+  color: #EA1C2C;
+}
+.top{
+  overflow: hidden;
 }

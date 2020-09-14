@@ -85,3 +85,10 @@ body{
 #mainnavbar .navbar-brand{
     color: #EA1C2C;
 }
+.jumbotron{
+    
+    background-image: url(https://images.pexels.com/photos/236910/pexels-photo-236910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350&w=940) !important;
+}
+.jumbotron h1{
+        color: white;
+    }
